@@ -31,7 +31,7 @@ namespace TestProject.Api.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Fruits");
+                    b.ToTable("Fruit");
                 });
 #pragma warning restore 612, 618
         }

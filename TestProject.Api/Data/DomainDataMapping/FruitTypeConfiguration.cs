@@ -14,6 +14,8 @@ namespace TestProject.Api.Data.DomainDataMapping
 
             builder.Property(x => x.Name)
                 .IsRequired();
+
+            builder.ToTable("Fruit", "dbo");
         }
     }
 }
